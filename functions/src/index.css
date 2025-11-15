@@ -1,0 +1,22 @@
+* {
+    color: white;
+}
+
+.nav {
+    display: flex;
+    padding: 20px 40px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+
+body {
+    background-color: black;
+}
+
+.nav div {
+    display: flex;
+    align-items: center;
+    gap: 40px;  
+}
