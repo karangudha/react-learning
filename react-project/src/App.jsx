@@ -1,10 +1,11 @@
-import React from 'react'
-
+import Card from './component/card'
 const App = () => {
+  const arr = ['karan', 'ram', 'rahul'];
   return (
-    <div id='root'>
-      <h1 id = 'child1'>Hello, React!</h1>
-      <h2 id = 'child2'>Welcome to your React application.</h2>
+    <div className='Parent'>
+      {arr.map((name) => {
+        return <Card user={name}/>
+      })}
     </div>
   )
 }
